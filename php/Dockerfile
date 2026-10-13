@@ -8,6 +8,9 @@ RUN apt-get update && apt-get install -y \
 # Install mysqli / pdo_mysql
 RUN docker-php-ext-install mysqli pdo pdo_mysql
 
+# Copy Composer from original image
+COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+
 # Enable Apache mod_rewrite (optional)
 RUN a2enmod rewrite
 

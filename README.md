@@ -37,7 +37,7 @@ Do not forget to (to allow the web server to handle the files properly): chmown 
 
 # Installed PHP extensions
 
-```
+```bash
 docker exec -it <container_id> php -m
 
 [PHP Modules]

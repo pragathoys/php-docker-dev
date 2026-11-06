@@ -2,6 +2,8 @@
 
 A Docker YAML file for PHP 8 quick development with Apache and DB. It fetches the latest version of PHP.
 
+Composer is inlcuded as well.
+
 # Configuration
 
 Before starting the container dont forget to change the username and password of the db user

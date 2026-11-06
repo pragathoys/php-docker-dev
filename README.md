@@ -6,7 +6,9 @@ Composer is inlcuded as well.
 
 # Configuration
 
-Before starting the container dont forget to change the username and password of the db user
+Before starting the container dont forget to change the username and password of the db user.
+
+Also change the PORTs accordingly as needed.
 
 # Just ...
 
@@ -32,3 +34,53 @@ If you want to connect the docker in a different network eg. proxy :
 Add your code inside the src folder and you can view it instantly inside docker!
 
 Do not forget to (to allow the web server to handle the files properly): chmown -R www-data: ./src
+
+# Installed PHP extensions
+
+'''
+php -m
+[PHP Modules]
+Core
+ctype
+curl
+date
+dom
+fileinfo
+filter
+hash
+iconv
+json
+ldap
+lexbor
+libxml
+mbstring
+mysqli
+mysqlnd
+openssl
+pcre
+PDO
+pdo_mysql
+pdo_sqlite
+Phar
+posix
+random
+readline
+Reflection
+session
+SimpleXML
+sodium
+SPL
+sqlite3
+standard
+tokenizer
+uri
+xml
+xmlreader
+xmlwriter
+Zend OPcache
+zip
+zlib
+
+[Zend Modules]
+Zend OPcache
+'''

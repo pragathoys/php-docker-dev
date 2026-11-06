@@ -37,7 +37,7 @@ Do not forget to (to allow the web server to handle the files properly): chmown 
 
 # Installed PHP extensions
 
-'''
+```
 php -m
 [PHP Modules]
 Core
@@ -83,4 +83,4 @@ zlib
 
 [Zend Modules]
 Zend OPcache
-'''
+```
